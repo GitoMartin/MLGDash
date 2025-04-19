@@ -34,6 +34,7 @@ feature_importances = model.feature_importances_
 
 # App init
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
 app.title = "Student Grade Predictor"
 
 # Layout
